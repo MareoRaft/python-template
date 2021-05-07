@@ -1,0 +1,10 @@
+services:
+  dev:
+    image: mvlancellotti/python-interview:dev
+    container_name: python-interview-container
+    restart: always
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./src:/home/matt/work
