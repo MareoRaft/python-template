@@ -6,7 +6,7 @@ WORKDIR /home/matt/work
 
 # install deps
 # RUN pip3 install {libname}=={version}
-RUN pip3 install pytest
+RUN pip3 install pytest==6.2.4
 
 # Do NOT COPY files in, as we should use docker volumes in development
 

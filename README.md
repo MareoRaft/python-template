@@ -1,9 +1,8 @@
-# Arcadia Code Challenge
+# Python Project Template
 
 ## Problem Description
 
-Complete various functions to make the program work.
-
+problem description here
 
 ## Setup
 
@@ -13,9 +12,8 @@ Complete various functions to make the program work.
 
 ## Run
 
-    docker exec -it arcadia-python-interview-container bash
+    docker exec -it python-interview-container bash
     # and then you can do one of
     pytest
-    python3 runner.py
-    ./run_aggregator.sh
+    python3 main.py
     
